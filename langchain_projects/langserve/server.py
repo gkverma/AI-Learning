@@ -9,11 +9,10 @@ from langserve import add_routes
 # import os
 
 # os.environ["OPENAI_API_KEY"] = ""
-# OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # print(OPENAI_API_KEY)
 
-OPENAI_API_KEY = 'sk-proj-BbeUnYhDZB7S3ChDXx3IT3BlbkFJOhzg8WVVueggmktUE6cn'
 # 1. Create prompt template
 system_template = "Translate the following into {language}:"
 prompt_template = ChatPromptTemplate.from_messages([
