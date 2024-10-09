@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langserve import add_routes
 
 
-# import os
+import os
 
 # os.environ["OPENAI_API_KEY"] = ""
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
